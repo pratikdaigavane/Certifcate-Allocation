@@ -30,7 +30,7 @@ def genCertificate(name,college,file_name):
 def sendMail(email,file):
 	print('Sending Mail to '+email)
 	global event_name
-	# reciever = email /// USE THE TO SEND MAIL TO CONCERNED PERSON FROM DATABASE
+	# reciever = email /// USE THIS TO SEND MAIL TO CONCERNED PERSON FROM DATABASE
 	reciever = "gauravv.ajay.boralkar@gmail.com"
 	sender = "testcertificate211@gmail.com"
 
